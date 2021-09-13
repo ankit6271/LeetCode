@@ -1,3 +1,4 @@
+// 1
 class Solution {
     public String restoreString(String s, int[] indices) {
         StringBuffer newStr=new StringBuffer("");
@@ -11,3 +12,14 @@ class Solution {
         return newStr.toString();
     }
 }
+
+// 2
+// class Solution {
+//     public String restoreString(String s, int[] indices) {
+//         StringBuffer newStr=new StringBuffer(s);
+//         for(int i=0;i<indices.length;i++){
+//             newStr.setCharAt(indices[i],s.charAt(i));
+//         }
+//         return newStr.toString();
+//     }
+// }
